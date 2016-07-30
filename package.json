@@ -1,0 +1,19 @@
+{
+  "name": "consulate-days",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "cron": "^1.1.0",
+    "express": "4.13.4",
+    "moment": "^2.14.1",
+    "node-notifier": "^4.6.0",
+    "request": "^2.74.0"
+  }
+}
