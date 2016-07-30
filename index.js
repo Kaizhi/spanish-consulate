@@ -16,7 +16,7 @@ const SCRAPE_URL = 'http://www.exteriores.gob.es/Consulados/TORONTO/en/Consulado
 const SCRAPE_LINK_SELECTOR = '#ctl00_PlaceHolderMain_ctl01_ctl05__ControlWrapper_RichHtmlField > div:nth-child(27) > div:nth-child(5) > span > a';
 const DAY_AVAILABLE = 'clsAvailable';
 const CURRENT_MONTH = parseInt(moment().format('M'));
-const CRON_QUARTER_HOUR = '*/1 * * * *';
+const CRON_QUARTER_HOUR = '*/15 * * * *';
 const MOMENT_FORMAT = 'MM-DD-YYYY';
 let earliestDate = false;
 
